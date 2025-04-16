@@ -1,7 +1,5 @@
 package com.pluralsight;
-
 import java.util.Scanner;
-
 public class Calculator2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +14,7 @@ public class Calculator2 {
         System.out.print("how Long Is Your Loan (IN YEARS): ");
         int years = scanner.nextInt();
 
-        // daily details
+        // Values
         int daysPerYear = 365;
 
         //Calculations
