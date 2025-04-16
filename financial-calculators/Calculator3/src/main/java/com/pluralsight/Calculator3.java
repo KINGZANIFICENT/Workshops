@@ -5,7 +5,7 @@ public class Calculator3 {
         Scanner scanner = new Scanner(System.in);
 
         // the inputs
-        System.out.print("Enter the monthly payout amount: ");
+        System.out.print("Enter the monthly payout amount: $");
         double monthlyPayout = scanner.nextDouble();
         // gets the rate and converts it into decimal
         System.out.print("What Is Your interest rate: ");
@@ -22,6 +22,6 @@ public class Calculator3 {
         double presentValue = monthlyPayout * (1 - Math.pow(1 + monthlyRate, -totalMonths)) / monthlyRate;
 
         // Output answers
-        System.out.printf("The present value of the annuity is: $%.2f%n", presentValue);
+        System.out.printf("annual payouts is: $%.2f%n", presentValue);
     }
 }
