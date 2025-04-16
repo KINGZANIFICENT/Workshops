@@ -9,14 +9,14 @@ public class Calculator1 {
         // the inputs
         System.out.print("What Is Your Loan Amount: ");
         double principal = scanner.nextDouble();
-
+        // gets the rate and converts it into decimal
         System.out.print("What Is Your Interest Rate (e.g. 5 for 5%): ");
         double annualRate = scanner.nextDouble() / 100.0;
 
         System.out.print("Enter The Number Of Years To Pay Out: ");
         int years = scanner.nextInt();
 
-        // compute
+        // Calculations
         int n = years * 12;
         double monthlyRate = annualRate / 12.0;
         double numerator   = monthlyRate * Math.pow(1 + monthlyRate, n);
