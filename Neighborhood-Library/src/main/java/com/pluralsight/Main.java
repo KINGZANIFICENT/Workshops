@@ -11,13 +11,13 @@ public class Main {
         makeBooks(); // call method
         showMenu(); // show the menu
     }
-
+     // make 20 books
     static void makeBooks() {
         for (int i = 0; i < myBooks.length; i++) {
             myBooks[i] = new Book(i + 1, "ISBN" + (1000 + i), "Book Title " + (i + 1));
         }
     }
-
+    // main menu
     static void showMenu() {
         boolean keepGoing = true;
         while (keepGoing) {
@@ -40,7 +40,7 @@ public class Main {
             }
         }
     }
-
+    // self explanatory
     static void showAvailable() {
         System.out.println("Here are the books you can check out:");
         boolean any = false;
@@ -56,7 +56,7 @@ public class Main {
             System.out.println("Nothing is available right now.");
             return;
         }
-
+        // self explanatory
         System.out.print("Type the ID of the book to check out (or X to go back): ");
         String answer = input.nextLine();
 
@@ -77,7 +77,7 @@ public class Main {
             }
         }
     }
-
+    // self explanatory
     static void showCheckedOut() {
         System.out.println("Checked out books:");
         boolean any = false;
