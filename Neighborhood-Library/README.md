@@ -69,6 +69,11 @@ IMAGES
 ------------------------------------------------------------------------------------------------------
 ![library5.png](src/imgs/library5.png)
 
+ADDED BOOK NAMES 
+
+
+![library6.png](src/imgs/library6.png)
+
 Interesting piece of code
 ParseInt is super useful because it allows you to convert a String into an integer and that’s something you'll often need 
 when working with user input You can’t do math with a string so if you want to use that number in calculations 

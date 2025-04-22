@@ -12,11 +12,24 @@ public class Main {
         showMenu(); // show the menu
     }
      // make 20 books
-    static void makeBooks() {
-        for (int i = 0; i < myBooks.length; i++) {
-            myBooks[i] = new Book(i + 1, "ISBN" + (1000 + i), "Book Title " + (i + 1));
-        }
-    }
+     // make 20 BMW-themed books
+     static void makeBooks() {
+         String[] bmwModels = {
+                 "BMW 3 Series", "BMW 5 Series", "BMW 7 Series", "BMW X1", "BMW X3",
+                 "BMW X5", "BMW X6", "BMW X7", "BMW M3", "BMW M4",
+                 "BMW M5", "BMW Z4", "BMW i3", "BMW i4", "BMW i7",
+                 "BMW iX", "BMW 8 Series", "BMW M2", "BMW 1 Series", "BMW Alpina B7"
+         };
+
+         for (int i = 0; i < myBooks.length; i++) {
+             myBooks[i] = new Book(
+                     i + 1,
+                     "BMWISBN" + (1000 + i),
+                     "The Story of the " + bmwModels[i]
+             );
+         }
+     }
+
     // main menu
     static void showMenu() {
         boolean keepGoing = true;
