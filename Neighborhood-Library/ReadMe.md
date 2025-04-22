@@ -58,9 +58,13 @@ findBookById: Searches for a book by its ID to check its status or perform actio
 
 IMAGES
 ![library1.png](src/imgs/library1.png)
+------------------------------------------------------------------------------------------------------
 ![library2.png](src/imgs/library2.png)
+------------------------------------------------------------------------------------------------------
 ![library3.png](src/imgs/library3.png)
+------------------------------------------------------------------------------------------------------
 ![library4.png](src/imgs/library4.png)
+------------------------------------------------------------------------------------------------------
 ![library5.png](src/imgs/library5.png)
 
 Interesting piece of code
