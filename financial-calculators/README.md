@@ -39,11 +39,12 @@ java -jar target/financial-calculators-1.0-SNAPSHOT.jar
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-![Selector.png](src/images/Selector.png)
 ![Calc1.png](src/images/Calc1.png)
 ![Calc2.png](src/images/Calc2.png)
 ![Calc3.png](src/images/Calc3.png)
 ![erroneous.png](src/images/erroneous.png)
+![Selector.png](src/images/Selector.png)
+
 
 At first glance, the line
 
